@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.calculator{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  width: 240px;
+  background-color: #808080;
+  padding: 10px;
+}
+.screen{
+  height: 20%;
+  background-color: #c0c0c0;
+}
+.button{
+  height: 75%;
+  background-color: #c0c0c0;
+  display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+  padding: 5px;
+}
+.dup{
+   grid-column: 3/5;
+}
+
