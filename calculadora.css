@@ -1,0 +1,28 @@
+
+
+.container{
+    display:grid;
+    grid-templat-columns:1rf 1rf;
+    grid-templat-rows:20vh 10vh
+  }
+  
+  
+  
+  
+  
+  
+  header{
+    background:#;
+    height:100px;
+  }
+  
+  main{
+    background:blue;
+    height:200px
+  }
+   
+  .main{
+    display:grid;
+    grid-template-columns: 1fr
+    
+  }
